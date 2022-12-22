@@ -1,0 +1,16 @@
+<div class="card mt-4 mb-5" aria-hidden="true">
+  <img *ngIf="headerImage" src="..." class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 *ngIf="headerTitle" class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span *appTimes="lines" class="placeholder col-7"></span>
+    </p>
+    <a
+      href="#"
+      tabindex="-1"
+      class="btn btn-primary disabled placeholder col-6"
+    ></a>
+  </div>
+</div>
