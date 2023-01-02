@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class ViewsHomeComponent {
   items = [
     {
-      image: '/assests.images/couch.jpeg',
+      image: 'assets/couch.jpeg',
       title: 'Couch',
       description: 'This is a fantastic couch to sit on',
     },
     {
-      image: '/assests.images/dresser.jpeg',
+      image: 'assets/dresser.jpeg',
       title: 'Dresser',
       description: 'This is a great dresser to puy stuff in',
     },
